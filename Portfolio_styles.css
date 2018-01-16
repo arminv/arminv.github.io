@@ -1,0 +1,68 @@
+body{
+  text-align: center;
+/*   padding: 110px; */
+  background-color: #9edbf394 !important;
+}
+
+p{
+  text-align: justified !important;
+  font-size: 15px;
+  font-weight: 300;
+}
+h1{
+/*   font-family: 'Limelight', cursive !important; */
+  font-family: 'Cinzel', serif !important;
+  font-size: 6em !important;
+}
+
+#my_pic{
+  max-width:30%;
+  border: 2px solid gray;
+}
+.jumbotron{
+  background-color: #264460 !important;
+  color: #FFFFF3 !important;
+  border: 3px solid #222 !important;
+  margin: 110px;
+  text-shadow:
+}
+
+.custom1{
+  background: lightblue;
+  border: 1px solid red;
+}
+
+img {
+	width: 95%;
+}
+
+.image1 {
+  background-image: url(https://images.unsplash.com/photo-1482061855243-4d326cb25fe2?auto=format&fit=crop&w=1350&q=80);
+}
+
+.image2 {
+  background-image: url(https://images.unsplash.com/photo-1485832329521-e944d75fa65e?auto=format&fit=crop&w=1350&q=80);
+}
+
+.image3 {
+  background-image: url(https://images.unsplash.com/photo-1492854536278-1f94bbec5732?auto=format&fit=crop&w=1350&q=80);
+}
+
+.image4 {
+  background-image: url(https://images.unsplash.com/photo-1435777940218-be0b632d06db?auto=format&fit=crop&w=1778&q=80);
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.navbar-inverse .navbar-brand{
+  color: white !important;
+}
+
+.thumbnail{
+  background-color: #222 !important;
+}
