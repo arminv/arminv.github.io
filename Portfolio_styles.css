@@ -12,7 +12,7 @@ p{
 h1{
 /*   font-family: 'Limelight', cursive !important; */
   font-family: 'Cinzel', serif !important;
-  font-size: 6em !important;
+  /*font-size: 6em !important;*/
 }
 
 #my_pic{
@@ -33,7 +33,11 @@ h1{
 }
 
 img {
-	width: 95%;
+	max-width:50% !important;
+}
+
+hr{
+	width: 60% ;
 }
 
 .image1 {
