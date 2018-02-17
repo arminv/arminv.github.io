@@ -5,8 +5,8 @@ body{
 }
 
 p{
-  text-align: justified !important;
-  font-size: 15px;
+  text-align: left !important;
+  font-size: 19px;
   font-weight: 300;
 }
 h1{
