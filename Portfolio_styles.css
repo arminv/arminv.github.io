@@ -1,14 +1,14 @@
 body{
   text-align: center;
-/*   padding: 110px; */
   background-color: #9edbf394 !important;
-  /*min-width: auto !important;*/
-  letter-spacing: 1.5px;
+  letter-spacing: 1.25px;
   line-height: 1.65;
+  margin: auto;
+  padding: auto;
 }
 
 p{
-  text-align: left !important;
+  text-align: justify ;
   font-size: 19px;
   font-weight: 300;
 }
@@ -37,6 +37,7 @@ h1{
 	min-width: 300px !important;
 	margin: auto;
 	margin-top: 10%;
+	/*padding: 10%;*/
 }
 
 .custom1{
@@ -49,7 +50,7 @@ img {
 }
 
 hr{
-	width: 60% ;
+	width: 80% ;
 }
 
 .image1 {
@@ -81,4 +82,9 @@ hr{
 
 .thumbnail{
   background-color: #222 !important;
+}
+
+.bottom_social{
+	padding: 7%;
+
 }
