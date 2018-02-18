@@ -2,6 +2,9 @@ body{
   text-align: center;
 /*   padding: 110px; */
   background-color: #9edbf394 !important;
+  /*min-width: auto !important;*/
+  letter-spacing: 1.5px;
+  line-height: 1.65;
 }
 
 p{
@@ -9,22 +12,31 @@ p{
   font-size: 19px;
   font-weight: 300;
 }
+
 h1{
 /*   font-family: 'Limelight', cursive !important; */
   font-family: 'Cinzel', serif !important;
-  /*font-size: 6em !important;*/
+  padding: auto;
 }
 
 #my_pic{
   max-width:30%;
   border: 2px solid gray;
 }
+
 .jumbotron{
   background-color: #264460 !important;
   color: #FFFFF3 !important;
   border: 3px solid #222 !important;
-  margin: 110px;
-  text-shadow:
+  margin: auto;
+  margin-top: 10%;
+  max-width: auto ;
+}
+
+.container{
+	min-width: 300px !important;
+	margin: auto;
+	margin-top: 10%;
 }
 
 .custom1{
