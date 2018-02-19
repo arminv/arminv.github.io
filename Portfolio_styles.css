@@ -1,7 +1,7 @@
 body{
   text-align: center;
-  background-color: #9edbf394 !important;
-  letter-spacing: 1.25px;
+  background-color:  #9edbf394 !important;
+  letter-spacing: normal; 
   line-height: 1.65;
   margin: auto;
   padding: auto;
@@ -9,7 +9,7 @@ body{
 
 p{
   text-align: justify ;
-  font-size: 19px;
+  font-size: 22px;
   font-weight: 300;
 }
 
@@ -21,16 +21,19 @@ h1{
 
 #my_pic{
   max-width:30%;
-  border: 2px solid gray;
+  border: 3px solid gray;
+  border-radius: 1%;
 }
 
 .jumbotron{
   background-color: #264460 !important;
+    /*background-color: #000000c9 !important;*/
   color: #FFFFF3 !important;
-  border: 3px solid #222 !important;
+  border: 5px solid #222 !important;
   margin: auto;
   margin-top: 10%;
   max-width: auto ;
+  border-radius: 1% !important;
 }
 
 .container{
