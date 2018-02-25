@@ -118,7 +118,12 @@ hr{
   background-color: #222 !important;
 }
 
-.bottom_social{
+.top_Social a{
+	padding: auto;
+	margin: 20%;
+}
+
+/*.bottom_social{
 	padding: 7%;
 
-}
+}*/
