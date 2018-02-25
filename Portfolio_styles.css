@@ -21,7 +21,9 @@ h1{
 }
 
 #my_pic{
-  max-width:30%;
+	min-width: 150px;
+	max-width: 300px; 
+  width:35%;
   border: 3px solid gray;
   border-radius: 4%;
 }
@@ -31,6 +33,7 @@ h1{
     /*background-color: #000000c9 !important;*/
   color: white !important;
   border: 5px solid #222 !important;
+  padding-top: 10%;
   margin: auto;
   margin-top: 10%;
   max-width: auto ;
@@ -44,8 +47,9 @@ background: linear-gradient(to top, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Fir
 .container{
 	min-width: 300px !important;
 	margin: auto;
-	margin-top: 10%;
-	/*padding: 10%;*/
+	/*margin-top: 10%;*/
+	padding: 10%;
+	/*padding: auto;*/
 }
 
 .custom1{
@@ -59,6 +63,7 @@ img {
 
 hr{
 	width: 80% ;
+	background-color: red ;
 }
 
 .image1 {
